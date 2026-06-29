@@ -31,4 +31,8 @@ This makes metadata extremely valuable as digital evidence:
   document was created by someone other than its claimed author, or that it
   was edited *after* a date it was supposed to be finalised.
 
+- **Creation/modified timestamps**: File system and document timestamps
+  build a timeline. Investigators cross-reference these against other
+  evidence (CCTV, phone logs, alibi statements) to spot inconsistencies.
+
 https://github.com/IdreesYousofzai/file-metadata-analyser.git
