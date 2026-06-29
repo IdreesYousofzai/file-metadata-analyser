@@ -35,4 +35,9 @@ This makes metadata extremely valuable as digital evidence:
   build a timeline. Investigators cross-reference these against other
   evidence (CCTV, phone logs, alibi statements) to spot inconsistencies.
 
+- **The absence of metadata is itself a clue.** Platforms like Facebook,
+  WhatsApp, and Instagram strip EXIF data on upload. So if an image *has* no
+  metadata, that can tell an investigator it was likely shared through one
+  of those platforms rather than sent as a raw camera file.
+
 https://github.com/IdreesYousofzai/file-metadata-analyser.git
