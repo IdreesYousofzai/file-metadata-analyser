@@ -24,4 +24,11 @@ This makes metadata extremely valuable as digital evidence:
   specific place and time, which is exactly the kind of fact an investigator
   (or a journalist verifying a source image) needs.
 
+- **Author/revision info in PDFs and Word docs**: Office documents quietly
+  record who created and who last edited a file, how many times it's been
+  revised, and how many minutes were spent editing it (`TotalTime` in a
+  `.docx`). In a fraud or plagiarism investigation, this can reveal that a
+  document was created by someone other than its claimed author, or that it
+  was edited *after* a date it was supposed to be finalised.
+
 https://github.com/IdreesYousofzai/file-metadata-analyser.git
