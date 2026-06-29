@@ -1,3 +1,5 @@
+<img width="596" height="299" alt="image" src="https://github.com/user-attachments/assets/290b7a29-49c0-4541-a4b9-3d6c618b5367" />
+
 # File Metadata Analyser
 
 A digital-forensics style CLI tool that detects a file's type (image, PDF, or
