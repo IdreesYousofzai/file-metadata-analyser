@@ -89,6 +89,8 @@ def browse_directory(directory: str = ".") -> None:
         print_error(f"No supported files found in {folder.resolve()}")
         return
 
+    
+
     print_header(f"Supported files in {folder.resolve()}")
     for i, f in enumerate(files, start=1):
         print(f"  [{i}] {f.name}")
