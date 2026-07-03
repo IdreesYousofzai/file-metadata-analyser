@@ -12,6 +12,7 @@ Usage:
     python main.py path/to/file   # analyse one file directly
 """
 
+
 import sys
 from pathlib import Path
 
