@@ -34,7 +34,6 @@ BANNER = r"""
             Analyser  -  Digital Forensics Toolkit
 """
 
-
 def detect_and_analyse(filepath: str) -> None:
     cleaned = str(filepath).strip().strip('"').strip("'")
     path = Path(cleaned).expanduser()
