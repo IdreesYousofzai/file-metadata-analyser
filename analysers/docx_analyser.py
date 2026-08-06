@@ -33,6 +33,7 @@ def _extract_app_properties(path: Path) -> dict:
             with docx_zip.open(APP_XML_PATH) as f:
                 root = ET.parse(f).getroot()
 
+        
         def get(tag):
             el = root.find(f"ep:{tag}", APP_NS)
             return el.text if el is not None else None
