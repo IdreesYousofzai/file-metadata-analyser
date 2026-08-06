@@ -24,6 +24,7 @@ def analyse(filepath) -> dict:
     result["Number of pages"] = len(reader.pages)
 
     if reader.is_encrypted:
+        
         result["Encryption"] = "Yes - this PDF is password protected"
 
     meta = reader.metadata
