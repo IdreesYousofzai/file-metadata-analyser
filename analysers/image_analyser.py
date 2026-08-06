@@ -41,6 +41,7 @@ def _extract_gps(tags) -> tuple[float, float] | None:
 
     lon = _convert_to_degrees(tags["GPS GPSLongitude"])
     if tags["GPS GPSLongitudeRef"].values[0] != "E":
+        
         lon = -lon
 
     return round(lat, 6), round(lon, 6)
