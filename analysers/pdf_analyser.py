@@ -43,6 +43,7 @@ def analyse(filepath) -> dict:
     }
 
     for label, value in fields.items():
+        
         result[label] = value if value else "Not present"
 
     return result
