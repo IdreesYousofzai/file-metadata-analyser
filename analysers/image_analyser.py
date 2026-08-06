@@ -16,6 +16,7 @@ import exifread
 
 
 def _convert_to_degrees(value) -> float:
+    
     """Convert an exifread GPS ratio triplet (deg, min, sec) to decimal degrees."""
     d = float(value.values[0].num) / float(value.values[0].den)
     m = float(value.values[1].num) / float(value.values[1].den)
