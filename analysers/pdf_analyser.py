@@ -11,6 +11,7 @@ from pathlib import Path
 from PyPDF2 import PdfReader
 
 
+
 def analyse(filepath) -> dict:
     """Extract metadata from a PDF file and return it as a label -> value dict."""
     path = Path(filepath)
