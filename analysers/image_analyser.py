@@ -44,6 +44,7 @@ def _extract_gps(tags) -> tuple[float, float] | None:
     return round(lat, 6), round(lon, 6)
 
 
+
 def analyse(filepath) -> dict:
     """Extract metadata from an image file and return it as a label -> value dict."""
     path = Path(filepath)
