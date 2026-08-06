@@ -23,6 +23,7 @@ def _convert_to_degrees(value) -> float:
     return d + (m / 60.0) + (s / 3600.0)
 
 
+
 def _extract_gps(tags) -> tuple[float, float] | None:
     """Pull a (latitude, longitude) pair out of exifread tags, or None if absent."""
     required = (
