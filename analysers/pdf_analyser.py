@@ -15,6 +15,7 @@ from PyPDF2 import PdfReader
 def analyse(filepath) -> dict:
     """Extract metadata from a PDF file and return it as a label -> value dict."""
     path = Path(filepath)
+    
     result = {
         "File name": path.name,
         "File size": f"{path.stat().st_size / 1024:.1f} KB",
