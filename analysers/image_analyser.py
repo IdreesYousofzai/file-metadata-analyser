@@ -37,6 +37,7 @@ def _extract_gps(tags) -> tuple[float, float] | None:
 
     lat = _convert_to_degrees(tags["GPS GPSLatitude"])
     if tags["GPS GPSLatitudeRef"].values[0] != "N":
+        
         lat = -lat
 
     lon = _convert_to_degrees(tags["GPS GPSLongitude"])
