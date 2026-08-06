@@ -22,6 +22,7 @@ APP_XML_PATH = "docProps/app.xml"
 APP_NS = {"ep": "http://schemas.openxmlformats.org/officeDocument/2006/extended-properties"}
 
 
+
 def _extract_app_properties(path: Path) -> dict:
     """Pull extra metadata out of docProps/app.xml (not exposed by python-docx)."""
     extras = {}
