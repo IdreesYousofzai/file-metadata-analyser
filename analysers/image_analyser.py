@@ -72,6 +72,7 @@ def analyse(filepath) -> dict:
     make = tags.get("Image Make")
     model = tags.get("Image Model")
     if make or model:
+        
         result["Camera"] = f"{make or ''} {model or ''}".strip()
 
     date_taken = tags.get("EXIF DateTimeOriginal") or tags.get("Image DateTime")
