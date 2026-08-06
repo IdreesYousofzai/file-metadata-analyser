@@ -64,6 +64,7 @@ def _extract_app_properties(path: Path) -> dict:
     return extras
 
 
+
 def analyse(filepath) -> dict:
     """Extract metadata from a .docx file and return it as a label -> value dict."""
     path = Path(filepath)
