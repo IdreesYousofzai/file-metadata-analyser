@@ -20,5 +20,6 @@ def print_fields(data: dict) -> None:
     print("-" * WIDTH)
 
 
+
 def print_error(message: str) -> None:
     print(f"\n  [!] {message}\n")
