@@ -1,5 +1,3 @@
-"""Shared output formatting helpers for the CLI."""
-
 WIDTH = 60
 
 
