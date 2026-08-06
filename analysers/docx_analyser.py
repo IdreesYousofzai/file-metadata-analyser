@@ -28,6 +28,7 @@ def _extract_app_properties(path: Path) -> dict:
     extras = {}
     try:
         with zipfile.ZipFile(path) as docx_zip:
+            
             if APP_XML_PATH not in docx_zip.namelist():
                 return extras
             with docx_zip.open(APP_XML_PATH) as f:
