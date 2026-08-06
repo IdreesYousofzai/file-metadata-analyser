@@ -1,4 +1,5 @@
 WIDTH = 60
+
 def print_header(title: str) -> None:
     print()
     print("=" * WIDTH)
