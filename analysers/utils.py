@@ -7,6 +7,7 @@ def print_header(title: str) -> None:
     print("=" * WIDTH)
 
 
+
 def print_fields(data: dict) -> None:
     """Print a dict of metadata fields neatly aligned as 'key : value'."""
     if not data:
