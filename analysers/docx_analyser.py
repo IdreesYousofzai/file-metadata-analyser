@@ -78,6 +78,7 @@ def analyse(filepath) -> dict:
     props = doc.core_properties
 
     core_fields = {
+        
         "Author": props.author,
         "Last modified by": props.last_modified_by,
         "Revision number": props.revision,
