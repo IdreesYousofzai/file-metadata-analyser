@@ -59,6 +59,7 @@ def _extract_app_properties(path: Path) -> dict:
 
         words = get("Words")
         if words:
+            
             extras["Word count"] = words
 
     except (zipfile.BadZipFile, ET.ParseError):
