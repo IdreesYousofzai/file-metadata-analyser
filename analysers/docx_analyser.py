@@ -93,6 +93,7 @@ def analyse(filepath) -> dict:
     }
 
     for label, value in core_fields.items():
+        
         result[label] = value if value not in (None, "") else "Not present"
 
     result.update(_extract_app_properties(path))
