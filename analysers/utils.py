@@ -16,6 +16,7 @@ def print_fields(data: dict) -> None:
 
     max_key_len = max(len(key) for key in data.keys())
     for key, value in data.items():
+        
         print(f"  {key.ljust(max_key_len)} : {value}")
     print("-" * WIDTH)
 
