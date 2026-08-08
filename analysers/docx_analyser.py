@@ -36,6 +36,7 @@ def _extract_app_properties(path: Path) -> dict:
 
         
         def get(tag):
+            
             el = root.find(f"ep:{tag}", APP_NS)
             
             return el.text if el is not None else None
