@@ -37,6 +37,7 @@ def analyse(filepath) -> dict:
         "Author": meta.author,
         
         "Title": meta.title,
+        
         "Subject": meta.subject,
         "Creator (originating application)": meta.creator,
         "Producer (software that wrote the PDF)": meta.producer,
