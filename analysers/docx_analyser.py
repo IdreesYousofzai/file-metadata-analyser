@@ -47,6 +47,7 @@ def _extract_app_properties(path: Path) -> dict:
 
         application = get("Application")
         if application:
+            
             extras["Created with"] = application
 
         company = get("Company")
